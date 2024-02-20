@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Murdle - Wordle, but by me">
+    <meta name="keywords" content="portfolio, web development, three.js, GSAP, Marcus Reynolds">
+    <meta name="author" content="Marcus Reynolds">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+    <title>Murdle - Wordle, but by me</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <section>
+            <h1> Murdle</h1>
+            <p1>Inspiration from Wordle, but by me, Marcus Reynolds. <br> A site for my portfolio.
+            <br> How to play: <br> - Start by guessing words, if a letter is in the word, it will show up underneath. <br> - The letters will appear in the order you guess them, once all five letters have been found, you will have to unscramble them to make the word you are looking for.</p1>
+            </section>
+        </div>
+        <div class="grid-item">
+            <section>
+                <input type="text" id=guessAns>
+                <button onclick="guess()">Submit</button> 
+                <div id="letterBoxes">
+                    <div class="letterBox" id="letterBox1"></div>
+                    <div class="letterBox" id="letterBox2"></div>
+                    <div class="letterBox" id="letterBox3"></div>
+                    <div class="letterBox" id="letterBox4"></div>
+                    <div class="letterBox" id="letterBox5"></div>
+                </div>
+            </section>
+        </div>
+        <div class="grid-item">
+            <section>
+                <h1> Ideas for Project</h1>
+                <p1> If i was to approach this project again, I would add several different things to improve it, such as: <br> - Display user guesses so they can keep track. <br> - Add CSS to the letter styling. <br> Ensure the submit text box has a character limit of 5, so people can't just spam the alphabet and encourage more thoughtful guesses. <br> - Mobile Responsiveness <br> - Colour Coding for when a correct letter is guessed in the correct place. <br> Increase word list from .... 3, by creating a seperate document/api link full of 5 letter words :) <br> - As this is just something for my portfolio however... I just wanted to showcase the minimum of what a project could look like, as this is my first "game" time application for the web... which is why I don't mind ruining it and showing the word... <br> Stuck? The word is.... [check the console]  </p1>
+                <h1> Back to Website</h1>
+                <a href="https://www.reynoldsjpg.co.uk/webPort.html">Click Here to go back to portfolio page</a>
+            </section>
+        </div>
+    </div>
+    <script src="wordPicker.js"></script>
+
+    
+</body>

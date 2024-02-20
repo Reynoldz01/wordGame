@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto
+.grid-item {
+    display: grid;
+}
+    
+.letterBox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
